@@ -7,22 +7,24 @@ function App() {
   const [people, setPeople] = useState([
     {
       id: 1,
-      name: "Valentina Ramirez",
+      name: "Inés Oliveros",
       role: "Backend Developer",
       img: "https://bootdey.com/img/Content/avatar/avatar8.png"
     },
     {
       id: 2,
-      name: "Diego Ruiz",
+      name: "David Romero",
       role: "QA",
       img: "https://bootdey.com/img/Content/avatar/avatar2.png"
     },
+   
     {
       id: 3,
-      name: "Fernanda Soto",
+      name: "Karen Steffany",
       role: "Frontend Developer",
       img: "https://bootdey.com/img/Content/avatar/avatar3.png"
     }
+
   ]);
 
   return (
@@ -35,4 +37,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
